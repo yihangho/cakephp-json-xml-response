@@ -5,7 +5,7 @@ class PostsController extends AppController {
 
     public function index() {
     	$this->set('posts', $this->Post->find('all'));
-    	$this->set('_serialize', array('posts'));
+    	// $this->set('_serialize', array('posts'));
 	}
 }
 ?>
